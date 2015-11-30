@@ -6,7 +6,7 @@
     :command ("canonical" "--stdin" "--linter" "js" "--outputFormat" "checkstyle" "--filePath" source-original)
     :standard-input t
     :error-parser flycheck-parse-checkstyle
-    :modes (js-mode js2-mode js3-mode)))
+    :modes (js-mode js2-mode js3-mode web-mode)))
 
 ;; (add-to-list 'flycheck-checkers 'canonical-javascript)
 
